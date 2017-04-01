@@ -1,0 +1,85 @@
+*{box-sizing: border-box;}
+
+html, body{
+	height: 100%;
+	overflow: none;
+	padding: 0px;
+	/*padding is space on the inside, can be a number pixel or a percentage*/
+	margin: 0px;
+	/*margin gives space on the outside, 4 numbers means space on the top, left, bottom and right*/
+	/*two numbers are top-bottom and left-right,and one number in all around*/
+	font-family: "Roboto";
+	/*google google fonts*/
+	background-color: rgb(249, 248, 247);
+	/*google color picker and copy rgb*/
+}
+/*to get a comment hit control slash*/
+div {
+	display: inline-block;
+	/*in line block puts them right next to each other while block would put the divisions on top of each other*/
+	margin-right: -4px;
+	vertical-align: middle;
+	/*aligns the text of the division in the middle*/
+}
+
+div#top-left {
+	/*don't put a space because this would mean you are referring to an element within the div*/
+	width: 50%;
+	min-height: 60%;
+	background-image: url('websitephoto.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+div#top-right{
+	width: 50%;
+	min-height: 60%;
+	padding: 2% 6%;
+	color: rgb(83, 88, 95);
+	background-color: rgb(244, 247, 247)
+}
+
+div#bottom{
+	width: 100%;
+	min-height: 40%;
+	padding: 3% 20%;
+	color: rgb(220, 222, 224);
+	background-color: rgb(40, 40, 40);
+}
+
+div#bottom-left{
+	width: 50%;
+	vertical-align: top;
+}
+
+div#bottom-right{
+	width: 30%;
+	margin-left: 20%; 
+	vertical-align: top;
+}
+
+h1{
+	font-size: 40px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+h2{
+	font-size: 35px;
+	margin-bottom: 15px; 
+}
+
+p{
+	font-size: 17px;
+	font-weight: lighter;
+	line-height: 1.4;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+	font-weight: bold;
+	color: rgb(3, 203, 235);
+}
+
